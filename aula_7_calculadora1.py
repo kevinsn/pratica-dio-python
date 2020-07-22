@@ -1,21 +1,21 @@
 #-------------------MÉTODOS-------------------
+if __name__ == '__main__':
+    def soma(a, b):
+        return a + b
 
-def soma(a, b):
-    return a + b
+    def subtracao(a, b):
+        return a - b
 
-def subtracao(a, b):
-    return a - b
+    def multiplicacao(a, b):
+        return a * b
 
-def multiplicacao(a, b):
-    return a * b
+    def divisao(a, b):
+        return a / b
 
-def divisao(a, b):
-    return a / b
-
-print(soma(1,2))
-print(subtracao(1,2))
-print(multiplicacao(1,2))
-print(divisao(1,2))
+    print(soma(1,2))
+    print(subtracao(1,2))
+    print(multiplicacao(1,2))
+    print(divisao(1,2))
 
 #-------------------CLASSES-------------------
 
@@ -35,10 +35,11 @@ class Calculadora:
     def divisao(self):
         return self.valor_a / self.valor_b
 
-calculadora = Calculadora(10, 2)
-print(calculadora.valor_a)
-print(calculadora.valor_b)
-print(calculadora.soma())
-print(calculadora.subtracao())
-print(calculadora.multiplicacao())
-print(calculadora.divisao())
+if __name__ == '__main__':
+    calculadora = Calculadora(10, 2)
+    print(calculadora.valor_a)
+    print(calculadora.valor_b)
+    print(calculadora.soma())
+    print(calculadora.subtracao())
+    print(calculadora.multiplicacao())
+    print(calculadora.divisao())
