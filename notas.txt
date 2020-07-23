@@ -1,0 +1,4 @@
+Rafael, 10, 10, 5, 5
+Felipe, 1, 9, 8, 7
+Cesar, 5, 9, 9, 2
+Galleani, 9, 8, 10, 3
